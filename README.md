@@ -73,6 +73,18 @@ ATLASは、あなたのパソコンの中で動く小さなウェブアプリで
 - **使わないもの**:コマンドの実行、ほかのアプリの操作、メールの送信、画面の撮影。
 - **書類の読み取り**:PDF・Word・Excelを文字にする作業は、メモリと時間に上限をつけた別の小さなプログラムで行います。中身がおかしいファイルでも本体は止まりません。
 
+### 「困ったときの情報」で提供者に送るもの(0.1.10〜)
+
+「アトラス、困ったときの情報を出して」と言うと、提供者に送るための文章が画面に出ます。送るかどうかは本人が決めます(自動では送りません)。
+
+- 入るもの:
+  - 版、パソコンの種類、会話の処理が動いているか
+  - 利用キーが設定済みか(キーそのものは入りません)
+  - フォルダの数、資料の控えの件数、自動更新の状態
+  - 最近の出来事(起動・再起動・更新)の時刻と版の番号、エラーの種類(ENOENT など)と回数
+- 入らないもの:会話、メモ、書類の中身や名前、ファイルやフォルダの場所、利用キー
+- 動作の記録の文章そのものは入りません。決まった種類の出来事だけを、数字と記号で書き出します。
+
 ### 自動アップデート(Windows)
 
 - 6時間ごとに、このページの `latest.json` を確認します。
@@ -87,24 +99,26 @@ ATLASは、あなたのパソコンの中で動く小さなウェブアプリで
 - Windows:`certutil -hashfile <ファイル> SHA256`
 - Mac:`shasum -a 256 <ファイル>`
 
-**版 0.1.9**
+**版 0.1.10**
 
 | ファイル | SHA-256 |
 |---|---|
-| `ATLAS-Setup-0.1.9.exe` | `0df839fbbce5f86bc9be52a68bb9deb52eddaccbade32760067034b4e759a60e` |
-| `ATLAS-Mac-0.1.9-AppleChip.zip` | `a8a629a4f1a7f072305c55664a1835065d1005654f22c9b4cd48d43934a04727` |
-| `ATLAS-Mac-0.1.9-Intel.zip` | `cfc034ad15ba71c1fca2c9d81a1eff94e06ad45435ed415e0270256753ed7624` |
-| `ATLAS-Mac-0.1.9.zip`(両方のチップ用) | `316c12cfef99e7ce30182e5a949977eb0d3fec9dbe0a73e40edc3128499007f6` |
+| `ATLAS-Setup-0.1.10.exe` | `e1169b4601eede543da7547dd6dd4c462a380bec3e4f4b2ba5d5aab879662eb0` |
+| `ATLAS-Mac-0.1.10-AppleChip.zip` | `408f39b00ff101700f8fb7556ef5ab9ebccd5c106b9e90c17dc574cc7ff05f46` |
+| `ATLAS-Mac-0.1.10-Intel.zip` | `227a479880bcac3eff1f909e731864a5636dad37a91a6fc92b551de553ded54e` |
+| `ATLAS-Mac-0.1.10.zip`(両方のチップ用) | `94522b54515c82497e39c4167a2d766b76ace37f6b9979deccce5619e51d3452` |
 
 ### ウイルス検査の結果(VirusTotal)
 
-70ほどのウイルス対策ソフトでまとめて検査できるサイトの結果です(検査日:2026-10-25)。
+70ほどのウイルス対策ソフトでまとめて検査できるサイトの結果です。
 
 | ファイル | 結果 |
 |---|---|
-| `ATLAS-Setup-0.1.9.exe` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/0df839fbbce5f86bc9be52a68bb9deb52eddaccbade32760067034b4e759a60e) |
-| `ATLAS-Mac-0.1.9-AppleChip.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/a8a629a4f1a7f072305c55664a1835065d1005654f22c9b4cd48d43934a04727) |
-| `ATLAS-Mac-0.1.9-Intel.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/cfc034ad15ba71c1fca2c9d81a1eff94e06ad45435ed415e0270256753ed7624) |
+| `ATLAS-Setup-0.1.10.exe` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/e1169b4601eede543da7547dd6dd4c462a380bec3e4f4b2ba5d5aab879662eb0) |
+| `ATLAS-Mac-0.1.10-AppleChip.zip` | [結果を見る](https://www.virustotal.com/gui/file/408f39b00ff101700f8fb7556ef5ab9ebccd5c106b9e90c17dc574cc7ff05f46)(検査待ち) |
+| `ATLAS-Mac-0.1.10-Intel.zip` | [結果を見る](https://www.virustotal.com/gui/file/227a479880bcac3eff1f909e731864a5636dad37a91a6fc92b551de553ded54e)(検査待ち) |
+
+前の版(0.1.9)は、3つとも「危険と判定したソフト:なし」でした。
 
 ご自分で検査することもできます:[VirusTotal](https://www.virustotal.com/) にダウンロードしたファイルをそのまま渡すと、同じ結果のページが出ます。
 
