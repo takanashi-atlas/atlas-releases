@@ -115,10 +115,12 @@ ATLASは、あなたのパソコンの中で動く小さなウェブアプリで
 | ファイル | 結果 |
 |---|---|
 | `ATLAS-Setup-0.1.10.exe` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/e1169b4601eede543da7547dd6dd4c462a380bec3e4f4b2ba5d5aab879662eb0) |
-| `ATLAS-Mac-0.1.10-AppleChip.zip` | [結果を見る](https://www.virustotal.com/gui/file/408f39b00ff101700f8fb7556ef5ab9ebccd5c106b9e90c17dc574cc7ff05f46)(検査待ち) |
-| `ATLAS-Mac-0.1.10-Intel.zip` | [結果を見る](https://www.virustotal.com/gui/file/227a479880bcac3eff1f909e731864a5636dad37a91a6fc92b551de553ded54e)(検査待ち) |
+| `ATLAS-Mac-0.1.10-AppleChip.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/408f39b00ff101700f8fb7556ef5ab9ebccd5c106b9e90c17dc574cc7ff05f46) |
+| `ATLAS-Mac-0.1.10-Intel.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/227a479880bcac3eff1f909e731864a5636dad37a91a6fc92b551de553ded54e) |
 
 前の版(0.1.9)は、3つとも「危険と判定したソフト:なし」でした。
+
+結果のページに出る「detect-debug-environment」「sets-process-name」などの印は、動きの特徴を表すラベルで、危険という判定ではありません(同梱しているNode.jsのような普通のプログラムにも付きます)。
 
 ご自分で検査することもできます:[VirusTotal](https://www.virustotal.com/) にダウンロードしたファイルをそのまま渡すと、同じ結果のページが出ます。
 
