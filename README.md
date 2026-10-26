@@ -115,8 +115,8 @@ ATLASは、あなたのパソコンの中で動く小さなウェブアプリで
 | ファイル | 結果 |
 |---|---|
 | `ATLAS-Setup-0.1.11.exe` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/9aa97b1360c07a1d78efa693eb69f2d51344a49955fc3c3d2cd2363a5e846797) |
-| `ATLAS-Mac-0.1.11-AppleChip.zip` | [結果を見る](https://www.virustotal.com/gui/file/a26c5b9ee944a131d13c102572bd1ed3e7ad87ec213b41a60eeb90b36b45a040)(検査待ち) |
-| `ATLAS-Mac-0.1.11-Intel.zip` | [結果を見る](https://www.virustotal.com/gui/file/566acc00a4f91dd52f8725708778c98937e165086b32eb6dfee0b7210308f420)(検査待ち) |
+| `ATLAS-Mac-0.1.11-AppleChip.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/a26c5b9ee944a131d13c102572bd1ed3e7ad87ec213b41a60eeb90b36b45a040) |
+| `ATLAS-Mac-0.1.11-Intel.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/566acc00a4f91dd52f8725708778c98937e165086b32eb6dfee0b7210308f420) |
 
 前の版(0.1.9・0.1.10)は、どれも「危険と判定したソフト:なし」でした。
 
