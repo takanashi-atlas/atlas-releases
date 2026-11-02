@@ -1,7 +1,7 @@
 # ATLAS
 
 声だけで使うAI秘書「ATLAS(アトラス)」の配布ページです。
-提供:たかなし(X:[@takanashi_ai120](https://x.com/takanashi_ai120))
+提供:たかなし(メール:takanashi.ai0120@gmail.com / X:[@takanashi_ai120](https://x.com/takanashi_ai120))
 
 使うには、提供者から届く **利用キー** が必要です(キーのない人がダウンロードしても使えません)。
 
@@ -99,14 +99,14 @@ ATLASは、あなたのパソコンの中で動く小さなウェブアプリで
 - Windows:`certutil -hashfile <ファイル> SHA256`
 - Mac:`shasum -a 256 <ファイル>`
 
-**版 0.1.11**
+**版 0.1.12**
 
 | ファイル | SHA-256 |
 |---|---|
-| `ATLAS-Setup-0.1.11.exe` | `9aa97b1360c07a1d78efa693eb69f2d51344a49955fc3c3d2cd2363a5e846797` |
-| `ATLAS-Mac-0.1.11-AppleChip.zip` | `a26c5b9ee944a131d13c102572bd1ed3e7ad87ec213b41a60eeb90b36b45a040` |
-| `ATLAS-Mac-0.1.11-Intel.zip` | `566acc00a4f91dd52f8725708778c98937e165086b32eb6dfee0b7210308f420` |
-| `ATLAS-Mac-0.1.11.zip`(両方のチップ用) | `bb9bf3ea5475dd8492e41c1d1996514981af6ac132c16176bd0589194927f54f` |
+| `ATLAS-Setup-0.1.12.exe` | `efe0ecf9007dbe1facf4e0e3de2537ad40ac7548343ab1cb3ac1690f42fab9e2` |
+| `ATLAS-Mac-0.1.12-AppleChip.zip` | `8a30f07a2d2d790d7129b4073c99e23d556c628ffe896594b0af630ca3b6c1c2` |
+| `ATLAS-Mac-0.1.12-Intel.zip` | `929437b3d091514dc66b3e1ed13a842a1787a500e989f399ffbb55381c2b0c62` |
+| `ATLAS-Mac-0.1.12.zip`(両方のチップ用) | `f3de44b25abf2383b875845d3fb9ffa336436dad7409d60bcd35753f4a1fae9f` |
 
 ### ウイルス検査の結果(VirusTotal)
 
@@ -114,11 +114,11 @@ ATLASは、あなたのパソコンの中で動く小さなウェブアプリで
 
 | ファイル | 結果 |
 |---|---|
-| `ATLAS-Setup-0.1.11.exe` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/9aa97b1360c07a1d78efa693eb69f2d51344a49955fc3c3d2cd2363a5e846797) |
-| `ATLAS-Mac-0.1.11-AppleChip.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/a26c5b9ee944a131d13c102572bd1ed3e7ad87ec213b41a60eeb90b36b45a040) |
-| `ATLAS-Mac-0.1.11-Intel.zip` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/566acc00a4f91dd52f8725708778c98937e165086b32eb6dfee0b7210308f420) |
+| `ATLAS-Setup-0.1.12.exe` | [危険と判定したソフト:なし](https://www.virustotal.com/gui/file/efe0ecf9007dbe1facf4e0e3de2537ad40ac7548343ab1cb3ac1690f42fab9e2) |
+| `ATLAS-Mac-0.1.12-AppleChip.zip` | 検査待ち |
+| `ATLAS-Mac-0.1.12-Intel.zip` | 検査待ち |
 
-前の版(0.1.9・0.1.10)は、どれも「危険と判定したソフト:なし」でした。
+前の版(0.1.9〜0.1.11)は、どれも「危険と判定したソフト:なし」でした。
 
 結果のページに出る「detect-debug-environment」「sets-process-name」などの印は、動きの特徴を表すラベルで、危険という判定ではありません(同梱しているNode.jsのような普通のプログラムにも付きます)。
 
